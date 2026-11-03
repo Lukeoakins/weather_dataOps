@@ -9,7 +9,7 @@ permissions:
   contents: write
 jobs:
   test_and_fetch:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
